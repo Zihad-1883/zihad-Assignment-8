@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.9,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch including HTML, CSS, JavaScript, React, and Node.js. Build real-world projects and land your first dev job.",
+    "image": "https://i.ibb.co.com/FL0S5fBr/PG7zkdkr-T9a-By-LHBe6sv-Teachable-Thumbnails-1.png",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "UI/UX Design Masterclass",
+    "instructor": "Sarah Johnson",
+    "duration": "15 hours",
+    "rating": 4.6,
+    "level": "Intermediate",
+    "description": "Master the art of user interface and experience design using Figma. Learn wireframing, prototyping, design systems, and usability testing techniques.",
+    "image": "https://i.ibb.co.com/XkXW2xWj/maxresdefault.jpg",
+    "category": "Design"
+  },
+  {
+    "id": 3,
+    "title": "Digital Marketing Strategy",
+    "instructor": "Mark Williams",
+    "duration": "12 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Learn SEO, social media marketing, email campaigns, and Google Ads. Build and execute a complete digital marketing strategy for any business.",
+    "image": "https://i.ibb.co.com/rG8nz4B8/digital-marketing-basics-course-example.webp",
+    "category": "Marketing"
+  },
+  {
+    "id": 4,
+    "title": "Python for Data Science",
+    "instructor": "Emily Chen",
+    "duration": "25 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Dive into data analysis, visualization, and machine learning using Python. Work with Pandas, NumPy, Matplotlib, and Scikit-learn on real datasets.",
+    "image": "https://i.ibb.co.com/BFCZCsG/images-q-tbn-ANd9-Gc-T5-Ku63-EZb-B6-Y0-Yl6-JZDGl1-Lk-Srcf-XSZwd-YEA-s.jpg",
+    "category": "Data Science"
+  },
+  {
+    "id": 5,
+    "title": "React & Next.js Complete Guide",
+    "instructor": "Alex Turner",
+    "duration": "18 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Build modern, high-performance web applications using React and Next.js. Covers hooks, context API, server components, routing, and deployment.",
+    "image": "https://i.ibb.co.com/Gfy7JkZr/images-q-tbn-ANd9-Gc-So1g-Jyw-Bzx-TG4d-NCd-E9o-Xqqi-Vj54-Cu-ZOyn-Ow-s.png",
+    "category": "Development"
+  },
+  {
+    "id": 6,
+    "title": "Graphic Design for Beginners",
+    "instructor": "Olivia Brown",
+    "duration": "10 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Learn the fundamentals of graphic design including typography, color theory, layout, and branding using Adobe Photoshop and Illustrator.",
+    "image": "https://i.ibb.co.com/Q3vSzgHz/images-q-tbn-ANd9-Gc-T-t5-Cwr-RRx-WZEDxyu-Vt-Hdsjd-Zf-My-ZUGh-Qzg-Q-s.jpg",
+    "category": "Design"
+  },
+  {
+    "id": 7,
+    "title": "Content Writing & Copywriting",
+    "instructor": "James Carter",
+    "duration": "8 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Master the skill of writing compelling content for blogs, websites, and ads. Learn SEO writing, storytelling, and persuasive copywriting techniques.",
+    "image": "https://i.postimg.cc/wBvBgGzR/copywriting.jpg",
+    "category": "Marketing"
+  },
+  {
+    "id": 8,
+    "title": "Mobile App Development with Flutter",
+    "instructor": "Ryan Patel",
+    "duration": "22 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Build cross-platform iOS and Android apps using Flutter and Dart. Covers state management, Firebase integration, animations, and publishing to app stores.",
+    "image": "https://i.postimg.cc/wBvBgGzR/flutter.jpg",
+    "category": "Development"
+  },
+  {
+    "id": 9,
+    "title": "Personal Finance & Investment Basics",
+    "instructor": "Natalie Moore",
+    "duration": "6 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Take control of your money with this practical guide to budgeting, saving, investing in stocks, and planning for financial freedom.",
+    "image": "https://i.postimg.cc/wBvBgGzR/finance.jpg",
+    "category": "Business"
+  }
+]
