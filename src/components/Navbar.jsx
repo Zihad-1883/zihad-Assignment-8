@@ -32,10 +32,10 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-end gap-2">
-        <Link href="/login" className="btn btn-ghost btn-sm">
+        <Link href="/login" className="bg-pink-500 hover:bg-pink-600 text-white font-semibold text-sm px-6 py-3 rounded-lg transition-all duration-200">
           Login
         </Link>
-        <Link href="/register" className="btn btn-primary btn-sm">
+        <Link href="/register" className="bg-pink-500 hover:bg-pink-600 text-white font-semibold text-sm px-6 py-3 rounded-lg transition-all duration-200">
           Register
         </Link>
       </div>
