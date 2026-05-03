@@ -9,7 +9,7 @@ const PopularCourses = async () => {
         .sort((a,b) => b.rating - a.rating)
         .slice(0,3)
 
-        console.log(topCourses);
+        // console.log(topCourses);
         
 
     return (
