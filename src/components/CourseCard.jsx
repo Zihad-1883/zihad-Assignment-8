@@ -1,8 +1,9 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const CourseCard = ({course}) => {
-    console.log(course);
+    // console.log(course.id);
     
     return (
         <div className='rounded-lg border-2 border-pink-600 p-5'>
@@ -13,7 +14,7 @@ const CourseCard = ({course}) => {
                 <h5 className='text-2xl font-semibold mt-4'>{course.title}</h5>
                 <h5 className='text-xl font-medium'>Instructor : {course.instructor}</h5>
                 <h5 className='text-xl font-medium'>Rating : {course.rating}</h5>
-                <button className='btn btn-soft btn-secondary w-full mt-3'>View Details</button>
+                <button className='block btn btn-soft btn-secondary w-full mt-3'><Link className='block' href={`/courses/${course.id}`}>View Details</Link></button>
             </div>
         </div>
     );
