@@ -10,7 +10,11 @@ const db = client.db("SkillSphere");
 
 export const auth = betterAuth({
   secret: process.env.BETTER_AUTH_SECRET,
-  baseURL: process.env.BETTER_AUTH_URL,
+    baseURL: "https://zihad-assignment-8.vercel.app",
+  trustedOrigins: [
+    "https://zihad-assignment-8.vercel.app",
+    "http://localhost:3000",
+  ], 
 
   database: mongodbAdapter(db, {
     client
