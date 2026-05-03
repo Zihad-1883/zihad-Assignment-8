@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SkillSphere - Online Learning Platform
 
-## Getting Started
+## Purpose
+SkillSphere is a modern online learning platform where users can explore courses, watch lessons, and enroll in skill-based programs like Web Development, Design, Marketing, Data Science, and more. Built as part of an assignment to demonstrate full-stack Next.js development with authentication and database integration.
 
-First, run the development server:
+## Live URL
+🔗 [https://zihad-assignment-8.vercel.app](https://zihad-assignment-8.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🏠 **Home Page** — Hero banner, Popular Courses, Learning Tips, Top Instructors, Trending Courses sections
+- 📚 **All Courses Page** — Browse all available courses with search functionality
+- 🔍 **Course Details Page** — Full course info, curriculum, instructor details (Protected Route)
+- 🔐 **Authentication** — Email/password registration & login with Google OAuth support
+- 👤 **My Profile Page** — View and update user name and profile image
+- 🔒 **Protected Routes** — Course details and profile pages require login
+- 📱 **Fully Responsive** — Works on mobile, tablet, and desktop
+- 🔔 **Toast Notifications** — Success and error feedback on all actions
+- 🎨 **Animations** — Smooth animations using Animate.css
+- ❌ **404 Page** — Custom not-found page
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework** — Next.js 16 (App Router)
+- **Styling** — Tailwind CSS + DaisyUI
+- **UI Components** — HeroUI
+- **Authentication** — BetterAuth
+- **Database** — MongoDB Atlas
+- **Deployment** — Vercel
 
-## Learn More
+## NPM Packages Used
 
-To learn more about Next.js, take a look at the following resources:
+| Package | Purpose |
+|--------|---------|
+| `next` | React framework with App Router |
+| `react` | UI library |
+| `tailwindcss` | Utility-first CSS framework |
+| `daisyui` | Tailwind component library |
+| `@heroui/react` | UI component library |
+| `better-auth` | Authentication library |
+| `mongodb` | MongoDB driver for database |
+| `react-hot-toast` | Toast notifications |
+| `react-icons` | Icon library |
+| `animate.css` | CSS animation library |
+| `@gravity-ui/icons` | Icon set |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
