@@ -11,10 +11,11 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
+import Link from "next/link";
 import toast from "react-hot-toast";
+import { FaGoogle } from "react-icons/fa";
 
 export default function LoginPage() {
-
 
   const onSubmit = async (e) => {
     e.preventDefault();
@@ -38,10 +39,16 @@ export default function LoginPage() {
     }
 
     if (data) {
-      toast.success("Account created successfully!");
+      toast.success("Login successful!");
     }
     
   };
+
+    const handleGoogleSignIn = async () => {
+          await authClient.signIn.social({
+              provider: "google",
+          });
+    }
 
   return (
     <Card className="border mx-auto w-125 py-10 my-15">
@@ -103,6 +110,9 @@ export default function LoginPage() {
           </Button>
         </div>
       </Form>
+      <p className="text-center">Or</p>
+      <button onClick={handleGoogleSignIn} className="btn w-full"><FaGoogle></FaGoogle>Sign In With Google</button>
+      <p className="text-center mt-5">Don&apos;t have an account? <Link href={'/register'} className="text-red-500">Sign Up</Link> here</p>
     </Card>
   );
 }

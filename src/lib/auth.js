@@ -8,11 +8,6 @@ import { mongodbAdapter } from "better-auth/adapters/mongodb";
 const client = new MongoClient(process.env.MONGODB_URI);
 const db = client.db("SkillSphere");
 
-// Add this to test connection
-client.connect()
-  .then(() => console.log("✅ MongoDB connected successfully"))
-  .catch((err) => console.error("❌ MongoDB connection failed:", err.message));
-
 export const auth = betterAuth({
   secret: process.env.BETTER_AUTH_SECRET,
   baseURL: process.env.BETTER_AUTH_URL,
@@ -24,4 +19,11 @@ export const auth = betterAuth({
   emailAndPassword: {
     enabled: true,
   },
+
+  socialProviders: {
+    google: {
+        clientId: process.env.GOOGLE_CLIENT_ID,
+        clientSecret: process.env.GOOGLE_CLIENT_SECRET
+    }
+  }
 });
