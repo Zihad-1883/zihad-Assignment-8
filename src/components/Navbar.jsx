@@ -1,5 +1,6 @@
 import Link from "next/link";
 import NavbarClient from "./NavbarClient";
+import { Suspense } from "react";
 
 const Navbar = () => {
   return (
@@ -32,7 +33,9 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <NavbarClient />
+      <Suspense fallback={<div className="navbar-end"></div>}>
+        <NavbarClient />
+      </Suspense>
 
     </div>
   );
