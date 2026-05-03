@@ -1,5 +1,5 @@
-import { createAuthClient } from "better-auth/client";
+import { createAuthClient } from "better-auth/react"; 
 
 export const authClient = createAuthClient({
-  baseURL: "https://zihad-assignment-8.vercel.app",
+  baseURL: process.env.NEXT_PUBLIC_BETTER_AUTH_URL || "https://zihad-assignment-8.vercel.app",
 });
