@@ -17,7 +17,7 @@ const NavLink = ({ href , children  }) => {
             className={`${isActive ? 'bg-pink-400' : ''}`}
         >
             {children}
-        </Link>
+        </Link> 
     );
 };
 
